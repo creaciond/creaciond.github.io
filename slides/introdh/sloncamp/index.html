@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<!-- Stylesheets and CSS -->
+		<link rel="stylesheet" href="../../reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="../../reveal.js/css/theme/serif.css">
+		
+		<link rel="stylesheet" href="../../custom/custom.css">
+		<!-- Headers -->
+		<title>Введение в DH, лагерь "Слон"</title>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			    <section>
+					<h2><b>Введение в Digital Humanities</b></h2>
+					<h3><i>Как посчитать литературное произведение и не получить по шапке от филологов</i></h3>
+					<br />
+					<br />
+					<p>
+						Даша Максимова, <br />
+						Фундаментальная и компьютерная лингвистика, ВШЭ–Москва
+					</p>
+					<font size="5"><p>
+						Пишите письма: <a href="mailto:daria.maximova.m@gmail.com">daria.maximova.m@gmail.com</a>
+						(ну, или <a href="https://vk.com/dienarretei">VK</a>!)
+						</p>
+					
+					<br />
+					<br />
+						<p>Эти слайды: <a href="https://creaciond.github.io/slides/introdh/sloncamp">
+						https://creaciond.github.io/slides/introdh/sloncamp</a></p>
+					</font>
+			    </section>
+			    <section>
+			    	<section><h2>Что это вообще такое эти Digital Humanities?</h2></section>
+			    	<section>
+			    		<p>Для начала попробуем перевести:
+			    			<ul>
+			    				<li><p class="fragment fade-in">цифровые гуманитарные науки</p></li>
+			    				<li><p class="fragment fade-in">цифровая гуманитаристика</p></li>
+			    			</ul>
+			    		</p>
+			    		<p class="fragment current-visible"><i>Как вам больше нравится? В чём, по-вашему, разница? Как правильно?</i></p>
+			    		<p class="fragment fade-in">На самом деле, разницы нет :) <br />
+			    		И мы всё равно говорим по-английски!</p>
+			    	</section>
+			    	<section>
+			    		<h2>Digital</h2>
+			    		<h4><i>Что мы можем назвать digital?</i></h4>
+			    		<p>Всё то, для чего мы используем вычислительные мощности:
+			    			<ul>
+			    				<li>программирование</li>
+			    				<li>статистические методы</li>
+			    				<li>машинное обучение</li>
+			    				<li>автоматический анализ текстов</li>
+			    				<li>semantic web, linked open data</li>
+			    				<li>wiki-технологии</li>
+			    			</ul>
+			    		</p>
+			    	</section>
+			    	<section>
+			    		<h2>Humanities</h2>
+			    		<h4><i>Гуманитарии???</i></h4>
+			    		<p>Всё, что мы можем называть <i>гуманитарным наследием</i>:
+			    			<ul>
+			    				<li>литература</li>
+			    				<li>дневники, любые письменные данные</li>
+			    				<li>картины</li>
+			    			</ul>
+			    		</p>
+			    		<span class="fragment fade-in"><p>Но это ещё не всё!
+			    			<ul>
+			    				<li>географические данные (GIS-системы)</li>
+			    				<li>wiki-данные</li>
+			    				<li>фильмы</li>
+			    			</ul>
+			    		</p></span>
+			    	</section>
+			    	<section>
+			    		<h2>Wiki говорит:</h2>
+			    		<p><b>это область исследований, обучения и созидания, созданная на стыке компьютерных и 
+			    		гуманитарных наук.</b> Цифровые гуманитарные науки предполагают использование оцифрованных 
+			    		материалов и материалов цифрового происхождения и объединяют методологии из традиционных 
+			    		гуманитарных наук (история, философия, лингвистика, литература, искусство, археология, 
+			    		музыка и т.д.) с компьютерными науками, предоставляя компьютерные инструменты и открывая 
+			    		новые возможности для сбора и визуализации данных, информационного поиска, 
+			    		интеллектуального анализа данных, а также применения матстатистики.</p>
+			    	</section>
+			    </section>
+			    <section>
+			    	<img data-src="./static/dh_defined.png" />
+			    </section>
+			    <section>
+			    	<section><h2>Так в чём прикол?</h2></section>
+			    	<section>
+			    		<h3>DH, в отличие от классической филологии, занимается <b>дальним чтением</b>.</h3>
+			    		<br />
+			    		<br />
+			    		<table class="fragment fade-in">
+			    			<tr>
+			    				<th>Ближнее чтение</th>
+			    				<th>Дальнее чтение</th>
+			    			</tr>
+							<tr>
+			    				<td>close reading</td>
+			    				<td>distant reading</td>
+			    			</tr>
+			    			<tr>
+			    				<td>читаем один текст и очень внимательно</td>
+			    				<td>"читаем" по сотне текстов за раз</td>
+			    			</tr>
+			    			<tr>
+			    				<td>конкретные черты стиля конкретного автора</td>
+			    				<td>абстрактные закономерности, характеризующие сразу многие тексты</td>
+			    			</tr>
+			    		</table>
+			    		<br />
+			    		<p align="right"><font size="4">Franco Moretti. <i>Distant Reading</i>. New York: Verso Books, 2013
+			    		<br /> русский перевод: Франко Моретти. <i>Дальнее чтение</i>. М.:Издательство Института Гайдара, 2016
+			    		</font></p>
+			    	</section>
+			    </section>
+			    <section>
+			    		<section>
+			    			<h2>Тексты</h2>
+			    			<p>Что можно делать с текстами?</p>
+			    			<ul>
+			    				<li class="fragment fade-in"><b>стилометрия</b>: 
+			    					насколько тексты похожи по стилю?</li>
+			    				<li class="fragment fade-in"><b>тематическое моделирование</b>: 
+			    					о чём в основном (и какими словами) написано?</li>
+			    				<li class="fragment fade-in"><b>сетевой анализ</b>: 
+			    					как связаны между собой персонажи в произведении?</li>
+			    				<li class="fragment fade-in">наблюдение трендов</li>
+			    			</ul>
+			    		</section>
+			    		<section>
+			    			<h2>Стилометрия</h2>
+			    			<img data-src="./static/rowling_galbraith.jpg" />
+			    			<p class="fragment fade-in">Служебные, малозначащие, не бросающиеся в глаза слова + 
+			    			статистические критерии = "стиль" автора. Так вычислили Джоан Роулинг, когда она 
+			    			написала "Зов кукушки" под псевдонимом.</p>
+			    			<p align="right"><font size="4"><i><a href="https://www.scientificamerican.com/article/how-a-computer-program-helped-show-jk-rowling-write-a-cuckoos-calling/">
+			    				How a Computer Program Helped Show J.K. Rowling write A Cuckoo’s Calling</a></i>. 
+			    				Patrick Juola for <i>Scientific American</i>, 2013
+			    			</font></p>
+			    		</section>
+			    		<section>
+			    			<img data-src="./static/dovlatov.jpg" />
+			    		</section>
+			    		<section>
+			    			<h2>Тематическое моделирование</h2>
+			    			<img data-src="./static/dovlatov_topics.png" width="600" />
+			    			<p class="fragment fade-in">Русские авторы-эмигранты после отъезда меньше пишут 
+			    			об алкоголе, но больше — о быте за границей.</p>
+			    			<p align="right"><font size="4">
+			    				<i><a href="https://hum.hse.ru/data/2018/03/30/1164719255/Emigre.pdf">
+			    				Emigre Writers: Topic Modeling Before and After</a></i>. 
+			    				 Г.Рязанская, М.Суворова, А.Щевьёва, <br />
+			    				коллоквиум на миноре Digital Humanities в Вышке, 29.03.2018
+			    			</font></p>
+			    		</section>
+			    		<section>
+			    			<h2>Сети</h2>
+			    			<img data-src="https://dlina.github.io/presentations/2017-spb/images/Boris_Godunov_Network_Graph_2017-06-21.jpg" width="600" />
+			    			<p>На иллюстрации — сеть персонажей из исторической драмы А.С. Пушкина <i>Борис Годунов</i>. 
+			    			Гораздо проще понять, что Гаврила Пушкин — связующий персонаж, если посмотреть на граф, а не читать пьесу.</p>
+			    			<p align="right"><font size="4"><i><a href="https://dlina.github.io/presentations/2017-spb/">
+			    				Introducing RusDraCor, a TEI-Encoded Russian Drama Corpus for the Digital Literary Studies</a></i>. <br />
+			    				Fischer et al., <i>Corpora 2017</i>, St. Petersburg
+			    			</font></p>
+			    		</section>
+				</section>
+				<section>
+					<section><h2>Другие проекты</h2></section>
+					<section>
+						<h2>1917. Свободная история</h2>
+						<img data-src="http://neva-room.ru/uploads/neva/2017/03/2017-03-13_18-41-58.png" />
+						<p align="right"><font size="4"><i><a href="https://project1917.ru">https://project1917.ru</a></i></font></p>
+					</section>
+					<section>
+						<h2>Толстой Digital</h2>
+						<img data-src="https://hum.hse.ru/data/2017/09/12/1172377303/1Tolstoy_5.png" width="600" />
+						<p align="right"><font size="4"><i><a href="http://tolstoy.ru/projects/tolstoy-digital/">http://tolstoy.ru/projects/tolstoy-digital/</a></i>,
+						игра <i><a href="https://arzamas.academy/materials/1363">Толстой или компьютер</a></i> на сайте Arzamas.
+						</font></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Подводим итоги</h2>
+						<ol>
+							<li class="fragment fade-in">DH — это когда мы применяем компьютерные штуки к 
+							некомпьютерному наследию</li>
+							<li class="fragment fade-in">Основной принцип — "дальнее чтение"</li>
+							<li class="fragment fade-in">Область новая, так что можно стать первооткрывателем (не забудьте только 
+							про интерпретируемость ваших результатов!)</li>
+						</ol>
+					</section>
+					<section>
+						<h2>Мне понравилось, где можно почитать ещё?</h2>
+						<a href="https://hum.hse.ru/digital">DH-Центр Вышки</a> (подпишитесь на рассылку!)
+						<br />
+						<a href="https://t.me/dh_hse">Канал в телеграме*</a>
+						<p align="right"><font size="4">*Мессенджер, запрещённый на территории РФ</font></p>
+					</section>
+				</section>
+				<section>
+					<h2>Спасибо за внимание!</h2>
+					Жду ваших вопросов :)
+				</section>
+			</div>
+		</div>
+		<!-- Scripts 'n stuff -->
+		<script src="../../reveal.js/js/reveal.js"></script>
+		<script>
+			Reveal.initialize();
+		</script>
+	</body>
+</html>
