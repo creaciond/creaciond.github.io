@@ -1,0 +1,21 @@
+.reveal section img {
+  border: none;
+}
+.reveal {
+  font-size: 26px;
+}
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Helvetica";
+}
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
